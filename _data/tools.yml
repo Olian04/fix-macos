@@ -16,7 +16,7 @@
       name: Ethernet Status
       link: https://ethernetstatus.com
       link_text: ethernetstatus.com
-      desc: "Adds the wired-connection menu bar indicator Mac lacks, since it assumes everyone is on Wi-Fi. (Proprietary.)"
+      desc: "Adds the wired-connection menu bar indicator Mac lacks, since it assumes everyone is on Wi-Fi. (Proprietary; free tier is enough.)"
     - emoji: "🍺"
       name: Homebrew
       link: https://github.com/Homebrew/brew
@@ -73,7 +73,7 @@
       name: OrbStack
       link: https://orbstack.dev
       link_text: orbstack.dev
-      desc: "Fast, low-overhead Docker containers, local Kubernetes, and headless Linux VMs in one app. (Proprietary; Docker Desktop replacement.)"
+      desc: "Fast, low-overhead Docker containers, local Kubernetes, and headless Linux VMs in one app. (Proprietary; free tier is enough.)"
     - emoji: "☸️"
       name: k9s
       link: https://github.com/derailed/k9s

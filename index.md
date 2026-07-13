@@ -1,5 +1,5 @@
 ---
-layout: home
+layout: default
 ---
 
 I don't like a lot of the default behavior in MacOS. This list contains the fixes I've found to make MacOS less annoying.

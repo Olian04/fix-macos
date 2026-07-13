@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="{{ site.lang | default: 'en' }}">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Pico CSS: classless, auto light/dark via prefers-color-scheme. -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@picocss/pico@2/css/pico.min.css">
+    {%- seo -%}
+  </head>
+  <body>
+    <main class="container">
+      <h1>{{ site.title }}</h1>
+      {{ content }}
+    </main>
+  </body>
+</html>

@@ -7,21 +7,11 @@ lang: en
 author:
   name: Oliver Anteros
 
-# GitHub Pages ships Minima v2.5.1, which has no dark mode. Pull Minima v3 via
-# remote_theme (pinned to a commit for stability) to get the adaptive skin.
-remote_theme: jekyll/minima@4de322363fca5927e6f4012cb94f6dad69ab5e6c
-
+# Styling comes from Pico CSS, loaded via CDN in _layouts/default.html. It is a
+# classless framework that auto-adapts to the visitor's prefers-color-scheme.
 plugins:
-  - jekyll-remote-theme
   - jekyll-seo-tag
   - jekyll-sitemap
-
-minima:
-  # "auto" follows the visitor's OS/browser prefers-color-scheme (light or dark).
-  skin: auto
-  social_links:
-    - platform: github
-      user_url: https://github.com/Olian04
 
 # index.md is the site's home page; keep the repo README out of the built site.
 readme_index:
