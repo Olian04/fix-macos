@@ -1,1 +1,12 @@
 .DS_Store
+
+# Jekyll / local preview build artifacts
+_site/
+_preview/
+.jekyll-cache/
+
+# Ruby / bundler tooling for script/preview.rb
+Gemfile.lock
+.bundle/
+vendor/
+.gems
