@@ -1,0 +1,100 @@
+- category: Fixing missing behavior
+  description: Adding new behavior or changing built in behavior that is either missing from the OS or behaves very differently compared to Linux or Windows.
+  items:
+    - emoji: "⌨️"
+      name: Karabiner-Elements
+      link: https://github.com/pqrs-org/Karabiner-Elements
+      link_text: pqrs-org/Karabiner-Elements
+      repo: pqrs-org/Karabiner-Elements
+      desc: "Remaps keys so a Windows/Linux keyboard works right on Mac — without it, keys land in the wrong place or don't work at all."
+    - emoji: "🖱️"
+      name: Smooze
+      link: https://smooze.co
+      link_text: smooze.co
+      desc: "Disables scroll acceleration and jerky scroll animations that make Mac scrolling feel alien coming from Windows/Linux. (Proprietary; free tier is enough.)"
+    - emoji: "🔌"
+      name: Ethernet Status
+      link: https://ethernetstatus.com
+      link_text: ethernetstatus.com
+      desc: "Adds the wired-connection menu bar indicator Mac lacks, since it assumes everyone is on Wi-Fi. (Proprietary.)"
+    - emoji: "🍺"
+      name: Homebrew
+      link: https://github.com/Homebrew/brew
+      link_text: Homebrew/brew
+      repo: Homebrew/brew
+      desc: "The package manager Mac is missing — install and update CLI tools the way you would with `apt` or `pacman`."
+    - emoji: "🪟"
+      name: Rectangle
+      link: https://github.com/rxhanson/Rectangle
+      link_text: rxhanson/Rectangle
+      repo: rxhanson/Rectangle
+      desc: "Keyboard-driven window snapping and tiling that Windows/Linux ship by default."
+
+- category: Improving built in behavior
+  description: Improving built in behavior either making it easier to use or more powerful.
+  items:
+    - emoji: "🔀"
+      name: AltTab
+      link: https://github.com/lwouis/alt-tab-macos
+      link_text: lwouis/alt-tab-macos
+      repo: lwouis/alt-tab-macos
+      desc: "Turns Mac's near-useless alt-tab into a proper Windows-style window switcher with thumbnails."
+    - emoji: "🔓"
+      name: Gatekeeper bypass guide
+      link: https://macpaw.com/how-to/fix-macos-cannot-verify-that-app-is-free-from-malware
+      link_text: macpaw.com
+      desc: "How to run unsigned apps and stop Mac from blocking software you trust. (Guide, not an app.)"
+    - emoji: "💻"
+      name: iTerm2
+      link: https://github.com/gnachman/iTerm2
+      link_text: gnachman/iTerm2
+      repo: gnachman/iTerm2
+      desc: "A far more capable Terminal.app replacement; I use its hotkey pop-over so my terminal follows me to whichever screen is active."
+
+- category: Adding new behavior
+  description: Adding genuinely new behavior that is nice to have but not needed.
+  items:
+    - emoji: "🔣"
+      name: Nerd Fonts
+      link: https://github.com/ryanoasis/nerd-fonts
+      link_text: ryanoasis/nerd-fonts
+      repo: ryanoasis/nerd-fonts
+      desc: "Patched fonts packed with icon glyphs; a de facto dependency for most modern TUIs and prompts."
+    - emoji: "✂️"
+      name: Click to Remove Element
+      link: https://chromewebstore.google.com/detail/click-to-remove-element/jcgpghgjhhahcefnfpbncdmhhddedhnk
+      link_text: Chrome Web Store
+      desc: "One-click deletion of page elements to fix broken websites — beat scroll locks and paywalls, unpad text boxes, and clean up pages before screenshots or screencasts."
+
+- category: Optional domain specific nice to have
+  description: Grouped by domain and only that which does not clearly fit into the other categories.
+  items:
+    - emoji: "📦"
+      name: OrbStack
+      link: https://orbstack.dev
+      link_text: orbstack.dev
+      desc: "Fast, low-overhead Docker containers, local Kubernetes, and headless Linux VMs in one app. (Proprietary; Docker Desktop replacement.)"
+    - emoji: "☸️"
+      name: k9s
+      link: https://github.com/derailed/k9s
+      link_text: derailed/k9s
+      repo: derailed/k9s
+      desc: "Terminal UI for navigating and managing local or remote Kubernetes clusters — a must-have for any k8s work."
+    - emoji: "🔍"
+      name: jq
+      link: https://github.com/jqlang/jq
+      link_text: jqlang/jq
+      repo: jqlang/jq
+      desc: "The standard CLI for slicing, filtering, and transforming JSON."
+    - emoji: "📄"
+      name: yq
+      link: https://github.com/mikefarah/yq
+      link_text: mikefarah/yq
+      repo: mikefarah/yq
+      desc: "Same idea as JQ but for YAML; invaluable for k8s manifests and CRDs."
+    - emoji: "🐶"
+      name: Bruno
+      link: https://github.com/usebruno/bruno
+      link_text: usebruno/bruno
+      repo: usebruno/bruno
+      desc: "Local-first, git-native API client, so request configs live in version control like the rest of my IaC/GitOps. Replaced Postman for me the day it launched."
