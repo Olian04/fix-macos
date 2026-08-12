@@ -99,6 +99,7 @@
       repo: usebruno/bruno
       desc: "Local-first, git-native API client, so request configs live in version control like the rest of my IaC/GitOps. Replaced Postman for me the day it launched."
     - emoji: "📚"
+      name: Tldr
       link: https://github.com/tldr-pages/tldr
       link_text: tldr-pages/tldr
       repo: tldr-pages/tldr
