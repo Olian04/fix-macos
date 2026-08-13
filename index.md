@@ -12,7 +12,7 @@ I don't like a lot of the default behavior in MacOS. This list contains the fixe
 {{ group.description }}
 
 {% for item in group.items -%}
-- {{ item.emoji }} **{{ item.name }}** — [{{ item.link_text }}]({{ item.link }}){% if item.repo %} {% include stars.html repo=item.repo %}{% endif %}
+- {{ item.emoji }} **{{ item.name }}** — [{{ item.link_text }}]({{ item.link }}){% if item.repo %} {% include stars.html repo=item.repo %}{% elsif item.gist %} {% include stars.html gist=item.gist %}{% endif %}
   - {{ item.desc }}
 {% endfor %}
 {% endfor -%}
