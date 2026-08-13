@@ -50,6 +50,12 @@
       link_text: gnachman/iTerm2
       repo: gnachman/iTerm2
       desc: "A far more capable Terminal.app replacement; I use its hotkey pop-over so my terminal follows me to whichever screen is active."
+    - emoji: "𖹭"
+      name: Disable non-breaking space keybind
+      link: https://gist.github.com/Olian04/00889798d34d5e89d5c93f822a97eff7
+      link_text: gist.github.com/Olian04/00889..7eff7
+      gist: 00889798d34d5e89d5c93f822a97eff7
+      desc: "Pressing Option+Space inserts a special kind of space character that often breaks command line applications and shells. This 1 liner fixes that."
 
 - category: Adding new behavior
   description: Adding genuinely new behavior that is nice to have but not needed.
