@@ -58,8 +58,8 @@
       desc: 'Pressing Option+Space inserts a special kind of space character that often breaks command line applications and shells. This one liner fixes that.'
     - emoji: '📊'
       name: Baobab
-      link: https://apps.gnome.org/en-GB/Baobab
-      link_text: https://apps.gnome.org/en-GB/Baobab
+      link: https://formulae.brew.sh/formula/baobab
+      link_text: https://formulae.brew.sh/formula/baobab
       desc: 'The disk usage utility from GNOME Linux. Compared to the Mac built in, this one is actually usefull.'
 
 - category: Adding new behavior
